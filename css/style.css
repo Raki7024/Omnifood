@@ -23,7 +23,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -147,12 +147,11 @@
 .logos {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 .logos img {
   height: 3.2rem;
-  filter: brightness(0%);
+  filter: brightness(0);
   opacity: 50%;
 }
 /***************************************/
@@ -197,7 +196,7 @@
 
 .step-img-box::after {
   width: 45%;
-  padding-bottom: 50%;
+  padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
 }
@@ -442,12 +441,12 @@
 /***************************************/
 
 .section-cta {
-  padding: 4.8rem 0 12.8rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
@@ -458,7 +457,7 @@
   color: #45260a;
 }
 .cta .heading-secondary {
-  color: #45260a;
+  color: inherit;
   margin-bottom: 3.2rem;
 }
 .cta-text {
